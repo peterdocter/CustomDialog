@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="myselfdialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item> <!-- themes.xml中的属性 -->
+        <item name="android:windowBackground">@android:color/transparent</item> <!-- themes.xml中的属性 -->
+        <!--<item name="android:windowAnimationStyle">@style/AnimationInputMethod</item>--><!--动画效果-->
+    </style>
+
+    <!--<style name="AnimationInputMethod">
+        <item name="android:windowEnterAnimation">@anim/input_method_enter</item>
+        <item name="android:windowExitAnimation">@anim/input_method_exit</item>
+    </style>-->
+
+</resources>
